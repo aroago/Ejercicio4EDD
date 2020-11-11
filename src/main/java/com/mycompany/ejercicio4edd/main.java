@@ -18,10 +18,10 @@ public class main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner teclado=new Scanner(System.in);
-        int n;
-		
+        
+        int n;	
 		System.out.println("Introduce un numero entero: ");
+                Scanner teclado=new Scanner(System.in);
 		n=teclado.nextInt();
 		
 		if(n<0){
