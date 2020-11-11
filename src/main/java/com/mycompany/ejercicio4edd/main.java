@@ -24,11 +24,15 @@ public class main {
                 Scanner teclado=new Scanner(System.in);
 		n=teclado.nextInt();
 		
-		if(n<0){
+		if(n==0){
+                    System.out.println("NULO");
+                }else{
+                    if(n<0){
                     System.out.println("NEGATIVO");
                 }else{
                     System.out.println("POSITIVO");
-                }
+                }}
+                        
     }
     
 }
